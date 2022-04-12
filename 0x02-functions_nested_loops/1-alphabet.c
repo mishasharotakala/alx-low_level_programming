@@ -1,14 +1,14 @@
-#include "main.h"
+#include "coding.h"
 /**
  * main - Entry point
  * Return: Always 0 (Success)
- * /
+ */
 void print_alphabet(void)
 {
-char alphabet;
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+int i;
+for (i = 'a'; i <= 'z'; i++)
 {
-_putchar(alphabet);
+_putchar(i);
 }
 _putchar('\n');
 }
