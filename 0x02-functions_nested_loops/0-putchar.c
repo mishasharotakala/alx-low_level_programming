@@ -1,18 +1,17 @@
-#include "main.h"
+#include "putchar.h"
 /**
  * main - Entry point
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
+int n = 0;
+char str_put[9] = "_putchar";
+while (n < 9)
+{
+_putchar(dtr_put[n]);
+n += 1;
+}
 _putchar('\n');
 return (0);
 }
